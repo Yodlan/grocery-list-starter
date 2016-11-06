@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Grocery List</title>
+
+  <link rel="stylesheet" type="text/css" href="/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="/style.css">
+
+</head>
+<body>
+
+   <div class="container">
+      <div class="row text-center col-sm-12">
+         <h1>Grocery List</h1>
+         <h3>Please register your Products in the form below.</h3>
+         <br>
+
+         <form method="POST" action="/groceries">
+            Product Code: <br>
+            <input type="text" name="code"><br>
+            Name    :<br>
+            <input type="text" name="name"><br>
+            Quantity    : <br>
+            <input type="text" name="quantity"><br>
+            $Price       : <br>
+            <input type="text" name="price"><br>
+            <input type="submit" value="Submit">
+         </form>
+         <br>
+
+   </div>
+</div>
+
+  <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+</body>
+</html>
